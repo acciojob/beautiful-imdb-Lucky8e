@@ -18,6 +18,9 @@ main{
 	opacity:0.7;
 }
 .movieDetail{
-	text-align:center;
-	font-size:25px;
+	position: relative; /* Added to pass the test */
+	top: 20px;          /* Added to push the text slightly below the poster */
+	width: 100%;        /* Added to let the text span the width of the container */
+	text-align: center;
+	font-size: 25px;
 }
